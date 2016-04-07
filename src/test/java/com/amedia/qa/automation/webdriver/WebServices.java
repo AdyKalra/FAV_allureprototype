@@ -35,7 +35,7 @@ public class WebServices extends Framework {
     private String tempFileName = "";
     private String tempFileMask1 = "";
     private String tempFileMask2 = "";
-    private String tempFolder = globalTestRunFolder + "temp/file";
+    private String tempFolder;
     final String ignoreList = System.getProperty("user.dir") + "/src/test/resources/ignoreList.txt";
 
     Logger log = LoggerFactory.getLogger(WebServices.class);
@@ -46,6 +46,7 @@ public class WebServices extends Framework {
 
     //To check the local temp folder is created or not ?
     private void checkLocalTempFolderIsCreated() {
+        tempFolder = globalTestRunFolder + "temp/file";
         if (!new File(tempFolder).exists()) {
             new File(tempFolder).mkdirs();
         }

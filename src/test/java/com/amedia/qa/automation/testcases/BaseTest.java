@@ -43,7 +43,7 @@ public class BaseTest {
             testSuiteStartDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Calendar.getInstance().getTime());
             testSuiteName = context.getCurrentXmlTest().getSuite().getName().toString();
 
-            framework.globalTestRunFolder = System.getProperty("user.home") + "/Testruns/" + new SimpleDateFormat("ddMMyyyy").format(Calendar.getInstance().getTime()) + "/"
+            framework.globalTestRunFolder = System.getProperty("user.dir") + "/Testruns/" + new SimpleDateFormat("ddMMyyyy").format(Calendar.getInstance().getTime()) + "/"
                     + InetAddress.getLocalHost().getHostName() + "/" + testSuiteName + "_" + new SimpleDateFormat("HHmmssSSS").format(Calendar.getInstance().getTime()) + "/";
 
             TestRunner runner = (TestRunner) context;
@@ -77,6 +77,7 @@ public class BaseTest {
         //To record test runs to database.
         if (recordTestRunsToDB == true) {
             db.recordTestExecutionResults(testSuiteName, testStatus, countTestRun, countTestPassed, countTestFailed, countTestSkipped, testSuiteStartDate, framework.globalTestRunFolder);
+            //copytestrunfoldertocentralize
         }
     }
 }
