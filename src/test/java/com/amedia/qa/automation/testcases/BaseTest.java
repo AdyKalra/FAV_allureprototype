@@ -51,7 +51,7 @@ public class BaseTest {
             TestRunner runner = (TestRunner) context;
             runner.setOutputDirectory(framework.globalTestRunFolder);
 
-            System.out.println("Output test suite folder : " + framework.globalTestRunFolder);
+            System.out.println("Output test suite folder location : " + framework.globalTestRunFolder);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
