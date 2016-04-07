@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" verbose="1" parallel="false">
+    <parameter name="browser" value="firefox" />
+    <test name="Smoke Test 1">
+        <classes>
+            <class name="com.amedia.qa.automation.testcases.testgoogle.TestGoogle" />
+        </classes>
+    </test>
+    <test name="Smoke Test 2">
+        <classes>
+            <class name="com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle" />
+        </classes>
+    </test>
+</suite>
+
