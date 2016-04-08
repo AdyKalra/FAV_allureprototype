@@ -5,6 +5,8 @@ import com.amedia.qa.automation.webdriver.Framework;
 import com.amedia.qa.automation.webdriver.PageInteraction;
 import com.amedia.qa.automation.webdriver.WebServices;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.ITestContext;
 import org.testng.TestRunner;
 import org.testng.annotations.*;
@@ -32,6 +34,8 @@ public class BaseTest {
     public WebServices service = new WebServices();
     public DatabaseManager db = new DatabaseManager();
 
+    Logger log = LoggerFactory.getLogger(BaseTest.class);
+
     public BaseTest() {
 
     }
@@ -49,7 +53,7 @@ public class BaseTest {
             TestRunner runner = (TestRunner) context;
             runner.setOutputDirectory(framework.globalTestRunFolder);
 
-            System.out.println("Output test suite folder location : " + framework.globalTestRunFolder);
+            log.info("Establishing test output directory at " + framework.globalTestRunFolder);
         } catch (Exception ex) {
             ex.printStackTrace();
         }
