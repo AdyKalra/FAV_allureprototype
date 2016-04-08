@@ -124,7 +124,7 @@ public class Framework {
             }
 
             File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(scrFile, new File(tempImageFolder + "img_" + new SimpleDateFormat("ddMMyyyyHHmmssSSS").format(Calendar.getInstance().getTime()) + ".png"));
+            FileUtils.copyFile(scrFile, new File(tempImageFolder + "img_" + new SimpleDateFormat("yyyyMMddHHmmssSSS").format(Calendar.getInstance().getTime()) + ".png"));
         }catch(Exception ex){
             log.error("Java exception occurred : ", ex);
         }

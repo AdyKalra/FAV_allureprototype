@@ -116,8 +116,8 @@ public class WebServices extends Framework {
 
         try {
             checkLocalTempFolderIsCreated();
-            tempFileMask1 = tempFolder + "/tempFileMask1_" + new SimpleDateFormat("ddMMyyyy_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
-            tempFileMask2 = tempFolder + "/tempFileMask2_" + new SimpleDateFormat("ddMMyyyy_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
+            tempFileMask1 = tempFolder + "/tempFileMask1_" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
+            tempFileMask2 = tempFolder + "/tempFileMask2_" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
 
             arrayData = readFileToArrayList(testFile);
             if (!arrayData.isEmpty()) {
@@ -292,7 +292,7 @@ public class WebServices extends Framework {
         BufferedWriter out;
         try {
             checkLocalTempFolderIsCreated();
-            tempFileName = tempFolder + "/temp_" + new SimpleDateFormat("ddMMyyyy_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
+            tempFileName = tempFolder + "/temp_" + new SimpleDateFormat("yyyyMMdd_HHmmssSSS").format(Calendar.getInstance().getTime()) + ".txt";
             out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(tempFileName), Charset.forName("UTF-8")));
             out.write(textToWrite);
             out.close();
