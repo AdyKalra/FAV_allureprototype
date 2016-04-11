@@ -1,0 +1,1 @@
+http://ari:9053/api/garudaintegration/v1/rest/sites/RU/stories::/Users/voravuthboonchai/Desktop/Test/TestFiles/TestXML01.xml::/Users/voravuthboonchai/Desktop/Test/TestFiles/Expected.xml

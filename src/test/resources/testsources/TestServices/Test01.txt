@@ -1,0 +1,2 @@
+http://ari:9066/api/garudaimport/v1/rest/NTB/www.rumbarapporten.no/sync::/Users/voravuthboonchai/Desktop/Test/TestFiles/postFile.json::/Users/voravuthboonchai/Desktop/Test/TestFiles/expectedFile.json
+http://ari:9066/api/garudaimport/v1/rest/NTB/www.rumbarapporten.no/sync::/Users/voravuthboonchai/Desktop/Test/TestFiles/postFile.json::/Users/voravuthboonchai/Desktop/Test/TestFiles/expectedFile_true.json

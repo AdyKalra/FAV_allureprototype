@@ -1,0 +1,5 @@
+http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314::id::2691314
+http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314::title::Dnb NOR Eiendom Asker
+http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314::address.address_id::9433719
+http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314::contacts.id::45298721
+http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314::fields.id[0]::1965208327

@@ -1,0 +1,44 @@
+{  
+   "id":11896348,
+   "service":"news",
+   "ntbId":"NTB2016-03-07T10:33:20.971Z",
+   "title":"Test Garuda Import",
+   "priority":5,
+   "time":"2016-01-21T12:23:04.000+0100",
+   "messageType":"Standard nyhetsmelding",
+   "ntbVersion":"00",
+   "content":"<p lede=\"true\" class=\"lead\">test 2</p><p>body</p>",
+   "keywords":"litivinenko enke reax",
+   "regions":[  
+      [  
+         "Europa",
+         "Thai"
+      ]
+   ],
+   "district":"Storbritannia",
+   "districts":[  
+      [  
+         "Russland",
+         "Storbritannia"
+      ]
+   ],
+   "category":"entertain",
+   "subcategory":"Nyheter",
+   "writerEmail":"Steinar.RostadBreivik@ntb.no",
+   "subjects":[  
+      [  
+         {  
+            "reference":"02000000",
+            "name":"Krim"
+         },
+         {  
+            "reference":"02001001",
+            "name":"s"
+         },
+         {  
+            "reference":"11000000",
+            "name":"Politikk"
+         }
+      ]
+   ]
+}
