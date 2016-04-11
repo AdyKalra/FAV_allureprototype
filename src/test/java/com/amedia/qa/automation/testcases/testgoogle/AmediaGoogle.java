@@ -31,7 +31,7 @@ public class AmediaGoogle extends BaseTest {
     public void clickChangeLanguageToEng() {
         page.clickLinkText("EN");
         framework.captureImage();
-        page.verifyValue(GoogleMainPage.ceoName, "ARE STOKSTADD");
+        page.verifyValue(GoogleMainPage.ceoName, "ARE STOKSTAD");
     }
 
     @AfterClass(description = "Stop test driver.")
