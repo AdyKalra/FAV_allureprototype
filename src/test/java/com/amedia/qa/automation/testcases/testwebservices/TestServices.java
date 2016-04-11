@@ -15,9 +15,9 @@ public class TestServices extends BaseTest {
             //String aaa = service.getValueFromGetMethod("http://bearing.dev.abctech-thailand.com/api/frontier/v1/companies/2691314", "fields.id[0]");
             //String bbb = service.getValueFromPostMethod(System.getProperty("user.dir") + "/src/test/resources/testfiles/postFile.json", "http://ari:9066/api/garudaimport/v1/rest/NTB/www.rumbarapporten.no/sync");
 
-            service.verifyValueOfGetMethod("/Users/voravuthboonchai/Desktop/Test/TestFiles/Test02.txt");
-            service.verifyValueOfGetMethod("/Users/voravuthboonchai/Desktop/Test/TestFiles/Test03.txt");
-            service.verifyValueOfPostMethod("/Users/voravuthboonchai/Desktop/Test/TestFiles/Test01.txt");
+            service.verifyValueOfGetMethod(System.getProperty("user.dir") + "/src/test/resources/testsources/TestServices/Test02.txt");
+            service.verifyValueOfGetMethod(System.getProperty("user.dir") + "/src/test/resources/testsources/TestServices/Test03.txt");
+            service.verifyValueOfPostMethod(System.getProperty("user.dir") + "/src/test/resources/testsources/TestServices/Test01.txt");
             //service.verifyValueOfPostMethod("/Users/voravuthboonchai/Desktop/Test/TestFiles/Test04.txt");
 
         }catch(Exception ex){
