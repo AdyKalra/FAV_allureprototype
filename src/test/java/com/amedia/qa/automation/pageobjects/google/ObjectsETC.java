@@ -22,7 +22,8 @@ public class ObjectsETC {
     public static By url = By.name("url");
     public static By parameter = By.name("parameter");
     public static By minute = By.name("minute");
-    public static By day = By.name("day");
+    public static By month = By.name("month");
+    public static By weekday = By.name("weekday");
     public static By minute_Choose = By.id("minute_chooser_choose");
     public static By hour_Every = By.id("hour_chooser_every");
     public static By day_Every = By.id("day_chooser_every");

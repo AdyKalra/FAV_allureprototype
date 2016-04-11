@@ -22,8 +22,8 @@ public class TestObjects extends BaseTest {
         framework.startDriver(browser);
     }
 
-    //@TestCaseId("TC001 : xxxxxxxxxx")
-    //@Test(priority = 1, description = "Check ostiarius adding user page.")
+    @TestCaseId("TC001 : xxxxxxxxxx")
+    @Test(priority = 1, description = "Check ostiarius adding user page.")
     public void ostiariusAddUserWithCancel() {
         page.openURL("http://admin.snap0.api.no/singhaclient/app/ostiarius?token=SEc8YBR5UhtpKl4Ya05kfDEfBzY_SiMM");
         page.clickLinkText("Add User");
@@ -46,13 +46,14 @@ public class TestObjects extends BaseTest {
         page.select(ObjectsETC.clientName, "adima");
         page.type(ObjectsETC.url, "www.aaa.com");
         page.type(ObjectsETC.parameter, "xxxxxx");
-        //page.select(ObjectsETC.minute, "10");
-        //page.click(ObjectsETC.minute_Choose);
-        //page.select(ObjectsETC.day, "30");
-        //page.click(ObjectsETC.day_Every);
-        //page.click(ObjectsETC.hour_Every);
-        //page.click(ObjectsETC.month_Choose);
-        //page.click(ObjectsETC.weekday_Choose);
+        page.click(ObjectsETC.minute_Choose);
+        page.select(ObjectsETC.minute, "10");
+        page.click(ObjectsETC.hour_Every);
+        page.click(ObjectsETC.day_Every);
+        page.click(ObjectsETC.month_Choose);
+        page.select(ObjectsETC.month, "December");
+        page.click(ObjectsETC.weekday_Choose);
+        page.select(ObjectsETC.weekday, "Saturday");
         framework.captureImage();
     }
 

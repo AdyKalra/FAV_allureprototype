@@ -19,7 +19,7 @@ import java.util.List;
 public class PageInteraction extends Framework {
 
     private int MAXIMUM_BUSY_WAIT = 60;
-    private double STATIC_WAIT = 0.4;
+    private double STATIC_WAIT = 0.8;
 
     Logger log = LoggerFactory.getLogger(PageInteraction.class);
 
@@ -112,7 +112,7 @@ public class PageInteraction extends Framework {
             return null;
         }
     }
-/*
+
     //To wait for static time.
     private void staticWait() {
         try{
@@ -121,7 +121,7 @@ public class PageInteraction extends Framework {
             log.error("Java exception occurred : ", ex);
         }
     }
-*/
+
     //Open the specific url.
     @Step("Navigate to url : {0}")
     public void openURL(String url) {
@@ -136,6 +136,7 @@ public class PageInteraction extends Framework {
             if (waitForElementPresent(by)) {
                 clear(by);
                 findElement(by).sendKeys(value);
+                staticWait();
                 waitForNotBusyIcon();
 
                 log.info("Type in object [" + by + "] with value : " + value);
@@ -167,6 +168,7 @@ public class PageInteraction extends Framework {
         try {
             if (waitForElementPresent(by)) {
                 findElement(by).click();
+                staticWait();
                 waitForNotBusyIcon();
 
                 log.info("Click at object [" + by + "]");
@@ -186,6 +188,7 @@ public class PageInteraction extends Framework {
         try {
             if (waitForElementPresent(By.linkText(text))) {
                 findElement(By.linkText(text)).click();
+                staticWait();
                 waitForNotBusyIcon();
 
                 log.info("Click at link text : " + text);
@@ -209,11 +212,13 @@ public class PageInteraction extends Framework {
                 if (value == true) {
                     if (!element.isSelected()) {
                         element.click();
+                        staticWait();
                         waitForNotBusyIcon();
                     }
                 } else {
                     if (element.isSelected()) {
                         element.click();
+                        staticWait();
                         waitForNotBusyIcon();
                     }
                 }
@@ -238,6 +243,7 @@ public class PageInteraction extends Framework {
                 if (element.isEnabled()) {
                     Select select = new Select(element);
                     select.selectByVisibleText(textSelected);
+                    staticWait();
                     waitForNotBusyIcon();
                     log.info("Select list box with text : " + textSelected + " from object [" + by + "].");
                 } else {
