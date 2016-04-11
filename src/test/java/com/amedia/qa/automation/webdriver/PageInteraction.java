@@ -3,6 +3,7 @@ package com.amedia.qa.automation.webdriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +19,7 @@ import java.util.List;
 public class PageInteraction extends Framework {
 
     private int MAXIMUM_BUSY_WAIT = 60;
+    private double STATIC_WAIT = 0.4;
 
     Logger log = LoggerFactory.getLogger(PageInteraction.class);
 
@@ -110,7 +112,16 @@ public class PageInteraction extends Framework {
             return null;
         }
     }
-
+/*
+    //To wait for static time.
+    private void staticWait() {
+        try{
+            Thread.sleep((long) STATIC_WAIT * 1000);
+        } catch (Exception ex) {
+            log.error("Java exception occurred : ", ex);
+        }
+    }
+*/
     //Open the specific url.
     @Step("Navigate to url : {0}")
     public void openURL(String url) {
@@ -142,6 +153,7 @@ public class PageInteraction extends Framework {
     private void clear(By by) {
         try {
             waitForElementPresent(by);
+            findElement(by).clear();
             findElement(by).sendKeys(Keys.chord(Keys.CONTROL, "a"));
             findElement(by).sendKeys(Keys.DELETE);
         } catch (Exception ex) {
@@ -180,6 +192,61 @@ public class PageInteraction extends Framework {
             } else {
                 log.warn("Unable to find an element with link text [" + text + "].");
                 Assert.fail("Unable to find an element with link text [" + text + "].");
+            }
+        } catch (Exception ex) {
+            log.error("Java exception occurred : ", ex);
+            Assert.fail(ex.toString());
+        }
+    }
+
+    //Check on checkbox.
+    @Step("Check checkbox[{1}] at object [{0}]")
+    public void check(By by, boolean value) {
+        WebElement element;
+        try {
+            if (waitForElementPresent(by)) {
+                element = findElement(by);
+                if (value == true) {
+                    if (!element.isSelected()) {
+                        element.click();
+                        waitForNotBusyIcon();
+                    }
+                } else {
+                    if (element.isSelected()) {
+                        element.click();
+                        waitForNotBusyIcon();
+                    }
+                }
+                log.info("Check checkbox [" + value + "] at object [" + by + "]");
+            } else {
+                log.warn("Unable to find an element [" + by + "].");
+                Assert.fail("Unable to find an element [" + by + "].");
+            }
+        } catch (Exception ex) {
+            log.error("Java exception occurred : ", ex);
+            Assert.fail(ex.toString());
+        }
+    }
+
+    //Select combo box.
+    @Step("Select list box [{0}] with value : {1}")
+    public void select(By by, String textSelected) {
+        WebElement element;
+        try {
+            if (waitForElementPresent(by)) {
+                element = findElement(by);
+                if (element.isEnabled()) {
+                    Select select = new Select(element);
+                    select.selectByVisibleText(textSelected);
+                    waitForNotBusyIcon();
+                    log.info("Select list box with text : " + textSelected + " from object [" + by + "].");
+                } else {
+                    log.warn("The list box ["+ by +"] is not enabled. Please check.");
+                    Assert.fail("The list box ["+ by +"] is not enabled. Please check.");
+                }
+            } else {
+                log.warn("Unable to find an element [" + by + "].");
+                Assert.fail("Unable to find an element [" + by + "].");
             }
         } catch (Exception ex) {
             log.error("Java exception occurred : ", ex);

@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 public class Framework {
 
     public static WebDriver driver;
-    public static int DEFAULT_WAIT = 15;
+    public static int DEFAULT_WAIT = 30;
 
     //Set default location of logback configuration file
     static {System.setProperty("logback.configurationFile", System.getProperty("user.dir") + "/src/test/resources/logback.xml");}
