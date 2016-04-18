@@ -1,10 +1,7 @@
 package com.amedia.qa.automation.webdriver;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -28,14 +25,13 @@ import java.util.concurrent.TimeUnit;
 public class Framework {
 
     public static WebDriver driver;
-    public static int DEFAULT_WAIT = 30;
+    public static int DEFAULT_WAIT = 90;
+    public static String globalTestRunFolder;
+    public static SoftAssert softAssert;
 
     //Set default location of logback configuration file
     static {System.setProperty("logback.configurationFile", System.getProperty("user.dir") + "/src/test/resources/logback.xml");}
     Logger log = LoggerFactory.getLogger(Framework.class);
-    public static SoftAssert softAssert;
-
-    public static String globalTestRunFolder;
 
     public Framework() {
 
@@ -66,6 +62,9 @@ public class Framework {
 
                     driver = new ChromeDriver(capabilitiesCH);
                     driver.manage().timeouts().implicitlyWait(DEFAULT_WAIT, TimeUnit.SECONDS);
+
+                    Dimension d = new Dimension(1280, 720);
+                    driver.manage().window().setSize(d);
                     driver.manage().window().maximize();
 
                     log.info("Starting driver with chrome browser.");
@@ -87,7 +86,7 @@ public class Framework {
 
                     //FirefoxBinary ffBinary = new FirefoxBinary(new File("C:/Program Files (x86)/Mozilla Firefox 22/firefox.exe"));
                     FirefoxBinary ffBinary = new FirefoxBinary();
-                    ffBinary.setTimeout(java.util.concurrent.TimeUnit.SECONDS.toMillis(90));
+                    ffBinary.setTimeout(java.util.concurrent.TimeUnit.SECONDS.toMillis(DEFAULT_WAIT));
 
                     driver = new FirefoxDriver(ffBinary, ffProfile, capabilitiesFF);
                     driver.manage().window().maximize();

@@ -11,10 +11,11 @@ import org.testng.ITestContext;
 import org.testng.TestRunner;
 import org.testng.annotations.*;
 
+import java.io.File;
 import java.net.InetAddress;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-
 
 /**
  * Created by voravuthboonchai on 3/29/2016 AD.
@@ -70,18 +71,24 @@ public class BaseTest {
     @Parameters("recordTestRunsToDB")
     @AfterSuite
     public void recordTestResultsToDB(ITestContext context, boolean recordTestRunsToDB) {
-        if (countTestFailed > 0) {
-            testStatus = "Failed";
-        } else if (countTestPassed == countTestRun) {
-            testStatus = "Passed";
-        } else if (countTestSkipped == countTestRun) {
-            testStatus = "Skipped";
-        }
+        try {
+            if (countTestFailed > 0) {
+                testStatus = "Failed";
+            } else if (countTestPassed == countTestRun) {
+                testStatus = "Passed";
+            } else if (countTestSkipped == countTestRun) {
+                testStatus = "Skipped";
+            }
 
-        //To record test runs to database.
-        if (recordTestRunsToDB == true) {
-            db.recordTestExecutionResults(testSuiteName, testStatus, countTestRun, countTestPassed, countTestFailed, countTestSkipped, testSuiteStartDate, framework.globalTestRunFolder);
-            //copytestrunfoldertocentralize
+            //copy logger.log to test run folder.
+            Files.copy(new File(System.getProperty("user.dir") + "/logger.log").toPath(), new File(framework.globalTestRunFolder + "/logger.log").toPath());
+
+            //To record test runs to database.
+            if (recordTestRunsToDB == true) {
+                db.recordTestExecutionResults(testSuiteName, testStatus, countTestRun, countTestPassed, countTestFailed, countTestSkipped, testSuiteStartDate, framework.globalTestRunFolder);
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 }
