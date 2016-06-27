@@ -1,0 +1,192 @@
+{
+  "features" : [ {
+    "title" : "Google",
+    "statistic" : {
+      "total" : 14,
+      "passed" : 11,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "da23b1cbc1fb01b8",
+      "title" : "BT-0002 : Search working properly with Amedia",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "8c41dac7b061b845",
+        "name" : "searchAmediaInGoogle",
+        "title" : "Search amedia in google",
+        "time" : {
+          "start" : 1465447694312,
+          "stop" : 1465447699966,
+          "duration" : 5654
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "27d790a8ca80ef12",
+        "name" : "clickChangeLanguageToEng",
+        "title" : "Click change language to eng",
+        "time" : {
+          "start" : 1465447699968,
+          "stop" : 1465447701222,
+          "duration" : 1254
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "879130e62741d412",
+        "name" : "searchAmediaInGoogle",
+        "title" : "Search amedia in google",
+        "time" : {
+          "start" : 1465448341626,
+          "stop" : 1465448357359,
+          "duration" : 15733
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b2a53f990d1ee424",
+        "name" : "clickChangeLanguageToEng",
+        "title" : "Click change language to eng",
+        "time" : {
+          "start" : 1465448357391,
+          "stop" : 1465448448912,
+          "duration" : 91521
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "10e963c54e109689",
+      "title" : "BT-0001 : Search working properly",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 10,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "85b73dd0dd4ac1a3",
+        "name" : "searchABCTechInGoogle",
+        "title" : "Search ABC tech in google",
+        "time" : {
+          "start" : 1465448219463,
+          "stop" : 1465448290444,
+          "duration" : 70981
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "492f49dfd88e76db",
+        "name" : "clickContactUs",
+        "title" : "Click contact us",
+        "time" : {
+          "start" : 1465448290452,
+          "stop" : 1465448296217,
+          "duration" : 5765
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9d23b77284cc4bec",
+        "name" : "inputInfoInContactUs",
+        "title" : "Input info in contact us",
+        "time" : {
+          "start" : 1465448296244,
+          "stop" : 1465448317050,
+          "duration" : 20806
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "67ed14e01aac9d94",
+        "name" : "verifyText",
+        "title" : "Verify text",
+        "time" : {
+          "start" : 1465448317088,
+          "stop" : 1465448321194,
+          "duration" : 4106
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ba8a4c96d404e2df",
+        "name" : "clickLogo",
+        "title" : "Click logo",
+        "time" : {
+          "start" : 1465448321197,
+          "stop" : 1465448327248,
+          "duration" : 6051
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7443d899c9132df2",
+        "name" : "searchABCTechInGoogle",
+        "title" : "Search ABC tech in google",
+        "time" : {
+          "start" : 1465447577784,
+          "stop" : 1465447644275,
+          "duration" : 66491
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f36c24047a04f2f",
+        "name" : "clickContactUs",
+        "title" : "Click contact us",
+        "time" : {
+          "start" : 1465447644298,
+          "stop" : 1465447667301,
+          "duration" : 23003
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3634b5485de345fe",
+        "name" : "inputInfoInContactUs",
+        "title" : "Input info in contact us",
+        "time" : {
+          "start" : 1465447667485,
+          "stop" : 1465447670227,
+          "duration" : 2742
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cd7a537d47cc4890",
+        "name" : "verifyText",
+        "title" : "Verify text",
+        "time" : {
+          "start" : 1465447670230,
+          "stop" : 1465447674893,
+          "duration" : 4663
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d8123e93409a9b54",
+        "name" : "clickLogo",
+        "title" : "Click logo",
+        "time" : {
+          "start" : 1465447674902,
+          "stop" : 1465447680055,
+          "duration" : 5153
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

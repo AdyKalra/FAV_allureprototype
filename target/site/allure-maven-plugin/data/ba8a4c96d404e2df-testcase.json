@@ -1,0 +1,86 @@
+{
+  "uid" : "ba8a4c96d404e2df",
+  "name" : "clickLogo",
+  "title" : "Click logo",
+  "time" : {
+    "start" : 1465448321197,
+    "stop" : 1465448327248,
+    "duration" : 6051
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Click on ABC logo to back to main page.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c504181ab6177b1f",
+    "name" : "Smoke Test Suite : Smoke Test 1",
+    "title" : "Smoke Test Suite : Smoke Test 1"
+  },
+  "steps" : [ {
+    "name" : "verifyValue[By.xpath: //div[contains(@class, 'one-third')]//div[2], Phone\n+66 (0) 2663 4340]",
+    "title" : "Verify object [By.xpath: //div[contains(@class, 'one-third')]//div[2]] with value : Phone\n+66 (0) 2663 4340",
+    "time" : {
+      "start" : 1465448321201,
+      "stop" : 1465448321306,
+      "duration" : 105
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click[By.xpath: //img[@class='sticky-logo']]",
+    "title" : "Click at object [By.xpath: //img[@class='sticky-logo']]",
+    "time" : {
+      "start" : 1465448321308,
+      "stop" : 1465448327247,
+      "duration" : 5939
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "1780@UniDev87.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "BT-0001 : Search working properly"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  } ],
+  "parameters" : [ ]
+}

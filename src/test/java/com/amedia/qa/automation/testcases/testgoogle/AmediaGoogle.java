@@ -6,9 +6,6 @@ import org.testng.annotations.*;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
 
-/**
- * Created by voravuthboonchai on 3/29/2016 AD.
- */
 @Features("Google")
 @Stories({"BT-0002 : Search working properly with Amedia"})
 public class AmediaGoogle extends BaseTest {

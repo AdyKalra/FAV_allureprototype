@@ -1,0 +1,25 @@
+?2016-Jun-09 14:56:31.186 [main] INFO  com.amedia.qa.automation.testcases.BaseTest.setupTestSuite - Establishing test output directory at F:\Frameworks\Current\Web\allureprototype/testruns/20160609/UniDev87/Smoke Test Suite_145631164/
+?2016-Jun-09 14:56:59.269 [main] INFO  com.amedia.qa.automation.webdriver.Framework.startDriver - Starting driver with firefox browser.
+?2016-Jun-09 14:57:05.724 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.openURL - Navigate to URL : https://www.google.com
+?2016-Jun-09 14:57:07.263 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.id: lst-ib] with value : ABC TECH
+?2016-Jun-09 14:57:07.803 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.click - Click at object [By.name: btnG]
+?2016-Jun-09 14:57:12.975 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.clickLinkText - Click at link text : ABCTech thailand – We bring fun back to work
+?2016-Jun-09 14:58:15.844 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.clickLinkText - Click at link text : Contact us
+?2016-Jun-09 14:58:35.259 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.name: contact_name] with value : John Peter
+?2016-Jun-09 14:58:35.825 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.name: contact_email] with value : John@Peter.com
+?2016-Jun-09 14:58:36.441 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.name: contact_subject] with value : This is a test subject
+?2016-Jun-09 14:58:37.003 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.name: contact_comment] with value : This is a test message. It is just a test.
+?2016-Jun-09 14:58:37.219 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.verifyValue - Verify value is matched with the expected value : contact@abctech-thailand.com
+?2016-Jun-09 14:58:37.359 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.verifyValue - Verify value is matched with the expected value : How to reach as?
+?2016-Jun-09 14:58:37.561 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.verifyValue - Verify value is matched with the expected value : BTS > Get off at BTS Asoke Station
+?2016-Jun-09 14:58:41.296 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.verifyValue - Verify value is matched with the expected value : Phone
++66 (0) 2663 4340
+?2016-Jun-09 14:58:47.228 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.click - Click at object [By.xpath: //img[@class='sticky-logo']]
+?2016-Jun-09 14:58:49.865 [main] INFO  com.amedia.qa.automation.webdriver.Framework.stopDriver - End driver.
+?2016-Jun-09 14:59:01.048 [main] INFO  com.amedia.qa.automation.webdriver.Framework.startDriver - Starting driver with firefox browser.
+?2016-Jun-09 14:59:09.781 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.openURL - Navigate to URL : https://www.google.com
+?2016-Jun-09 14:59:11.076 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.type - Type in object [By.id: lst-ib] with value : amedia
+?2016-Jun-09 14:59:11.873 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.click - Click at object [By.name: btnG]
+?2016-Jun-09 14:59:17.304 [main] INFO  com.amedia.qa.automation.webdriver.PageInteraction.clickLinkText - Click at link text : Amedia
+?2016-Jun-09 15:00:48.816 [main] WARN  com.amedia.qa.automation.webdriver.PageInteraction.clickLinkText - Unable to find an element with link text [EN].
+?2016-Jun-09 15:00:49.718 [main] INFO  com.amedia.qa.automation.webdriver.Framework.stopDriver - End driver.

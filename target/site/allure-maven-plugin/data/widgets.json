@@ -1,0 +1,74 @@
+{
+  "hash" : "9ae4a52f46fbba0c959575303f697deb73e72d63",
+  "data" : [ {
+    "statistic" : {
+      "total" : 14,
+      "passed" : 11,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 1
+    },
+    "time" : {
+      "start" : 1465447577784,
+      "stop" : 1465448448912,
+      "duration" : 871128
+    },
+    "name" : "total",
+    "type" : "TOTAL"
+  }, {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 2,
+      "message" : "AssertionError: Unable to find an element with link text [EN].",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'UniDev87', ip: '10.40.6.61', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'\nDriver info: driver.version: RemoteWebDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: 748aaa66-b862-4708-864c-e8bc41b0b7e1",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Smoke Test Suite : Smoke Test 2",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 1
+      }
+    }, {
+      "title" : "Smoke Test Suite : Smoke Test 1",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 10,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Google",
+      "statistic" : {
+        "total" : 14,
+        "passed" : 11,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

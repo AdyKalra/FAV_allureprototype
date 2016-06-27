@@ -1,0 +1,14 @@
+com\amedia\qa\automation\webdriver\PageInteraction$2.class
+com\amedia\qa\automation\testcases\testgoogle\AmediaGoogle.class
+com\amedia\qa\automation\pageobjects\google\ObjectsETC.class
+com\amedia\qa\automation\db\DatabaseManager.class
+com\amedia\qa\automation\pageobjects\google\GoogleMainPage.class
+com\amedia\qa\automation\testcases\BaseTest.class
+com\amedia\qa\automation\testcases\testgoogle\TestObjects.class
+com\amedia\qa\automation\webdriver\PageInteraction$1.class
+com\amedia\qa\automation\testcases\testgoogle\TestGoogle.class
+com\amedia\qa\automation\webdriver\Framework.class
+com\amedia\qa\automation\webdriver\PageInteraction$3.class
+com\amedia\qa\automation\webdriver\PageInteraction.class
+com\amedia\qa\automation\testcases\testwebservices\TestServices.class
+com\amedia\qa\automation\webdriver\WebServices.class

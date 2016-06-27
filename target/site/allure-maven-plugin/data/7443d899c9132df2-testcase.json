@@ -1,0 +1,137 @@
+{
+  "uid" : "7443d899c9132df2",
+  "name" : "searchABCTechInGoogle",
+  "title" : "Search ABC tech in google",
+  "time" : {
+    "start" : 1465447577784,
+    "stop" : 1465447644275,
+    "duration" : 66491
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Navigate to google.com and search with ABC Tech keyword.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : {
+    "name" : "TC001 : xxxxxxxxxx",
+    "url" : "TC001 : xxxxxxxxxx"
+  },
+  "suite" : {
+    "uid" : "c504181ab6177b1f",
+    "name" : "Smoke Test Suite : Smoke Test 1",
+    "title" : "Smoke Test Suite : Smoke Test 1"
+  },
+  "steps" : [ {
+    "name" : "startDriver[firefox]",
+    "title" : "Starting firefox driver.",
+    "time" : {
+      "start" : 1465447543702,
+      "stop" : 1465447577269,
+      "duration" : 33567
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "openURL[https://www.google.com]",
+    "title" : "Navigate to url : https://www.google.com",
+    "time" : {
+      "start" : 1465447577874,
+      "stop" : 1465447585305,
+      "duration" : 7431
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "type[By.id: lst-ib, ABC TECH]",
+    "title" : "Type in object [By.id: lst-ib] with value : ABC TECH",
+    "time" : {
+      "start" : 1465447585357,
+      "stop" : 1465447589915,
+      "duration" : 4558
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click[By.name: btnG]",
+    "title" : "Click at object [By.name: btnG]",
+    "time" : {
+      "start" : 1465447589923,
+      "stop" : 1465447590421,
+      "duration" : 498
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickLinkText[ABCTech thailand – We bring fun back to work]",
+    "title" : "Click at link text : ABCTech thailand – We bring fun back to work",
+    "time" : {
+      "start" : 1465447590426,
+      "stop" : 1465447597075,
+      "duration" : 6649
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "BT-0001 : Search working properly"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  }, {
+    "name" : "thread",
+    "value" : "12108@UniDev87.main(1)"
+  }, {
+    "name" : "testId",
+    "value" : "TC001 : xxxxxxxxxx"
+  } ],
+  "parameters" : [ ]
+}

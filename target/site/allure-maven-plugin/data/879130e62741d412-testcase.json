@@ -1,0 +1,146 @@
+{
+  "uid" : "879130e62741d412",
+  "name" : "searchAmediaInGoogle",
+  "title" : "Search amedia in google",
+  "time" : {
+    "start" : 1465448341626,
+    "stop" : 1465448357359,
+    "duration" : 15733
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Navigate to google.com and search with ABC Tech keyword.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "86be3b00c6129884",
+    "name" : "Smoke Test Suite : Smoke Test 2",
+    "title" : "Smoke Test Suite : Smoke Test 2"
+  },
+  "steps" : [ {
+    "name" : "stopDriver",
+    "title" : "Ending driver.",
+    "time" : {
+      "start" : 1465448327266,
+      "stop" : 1465448329882,
+      "duration" : 2616
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "startDriver[firefox]",
+    "title" : "Starting firefox driver.",
+    "time" : {
+      "start" : 1465448330702,
+      "stop" : 1465448341335,
+      "duration" : 10633
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "openURL[https://www.google.com]",
+    "title" : "Navigate to url : https://www.google.com",
+    "time" : {
+      "start" : 1465448341632,
+      "stop" : 1465448349834,
+      "duration" : 8202
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "type[By.id: lst-ib, amedia]",
+    "title" : "Type in object [By.id: lst-ib] with value : amedia",
+    "time" : {
+      "start" : 1465448349836,
+      "stop" : 1465448351166,
+      "duration" : 1330
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "click[By.name: btnG]",
+    "title" : "Click at object [By.name: btnG]",
+    "time" : {
+      "start" : 1465448351167,
+      "stop" : 1465448351885,
+      "duration" : 718
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickLinkText[Amedia]",
+    "title" : "Click at link text : Amedia",
+    "time" : {
+      "start" : 1465448351887,
+      "stop" : 1465448357359,
+      "duration" : 5472
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "1780@UniDev87.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 2"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 2"
+  }, {
+    "name" : "story",
+    "value" : "BT-0002 : Search working properly with Amedia"
+  } ],
+  "parameters" : [ ]
+}

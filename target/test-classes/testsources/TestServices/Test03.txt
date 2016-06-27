@@ -1,0 +1,4 @@
+http://ari:9053/api/garudaintegration/v1/rest/sites/RU/stories/5.88.4043::story.content.kicker::Test kicker
+http://ari:9053/api/garudaintegration/v1/rest/sites/RU/stories/5.88.4043::story.content.extrafields.extrafield.value::Anmeldelse
+http://ari:9053/api/garudaintegration/v1/rest/sites/RU/stories/5.88.4043::story.content.paragraphs.paragraph[0].body::hey hey hey hey update!!!! body 222222
+http://ari:9053/api/garudaintegration/v1/rest/sites/RU/stories/5.88.4043::story.content.factbox.heading::This is a facting heading data

@@ -49,7 +49,7 @@ public class Framework {
                     } else if (System.getProperty("os.name").equalsIgnoreCase("linux")) {
                         chromeDriver = "chromedriver_linux64";
                     } else {
-                        chromeDriver = "chromedriver_mac32";
+                        chromeDriver = "chromedriver.exe";
                     }
 
                     File files = new File(System.getProperty("user.dir") + "/drivers/" + chromeDriver);

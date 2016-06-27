@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<onl:story xmlns:onl="http://www.saxotech.com/online" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.saxotech.com/online story.xsd" siteuri="http://admin.eddainteraktiv.no:9090/cms-saxotech-integration/rest/sites/MA" site="MA" date="20120830">
+    <onl:metadata status="unpublished" source="none" rating="0" comments="false" paystatus="0" priority="40" storytype="standard" multimedia="list">
+        <onl:design frontpage="" section="" story=""/>
+        <onl:theme>
+            <![CDATA[]]>
+        </onl:theme>
+        <onl:keywords/>
+        <onl:channels web="1"/>
+        <onl:category id="5.88.16"/>
+        <onl:accesscontrol flow="0" singlesale="0"/>
+        <onl:multipriorities/>
+<onl:mwcauthor id="55555" mail="testinvalidemail" name="intupim thanatawee"/>
+    </onl:metadata>
+    <onl:content>
+        <onl:kicker>
+            <![CDATA[Test kicker
+]]>
+        </onl:kicker>
+        <onl:heading>
+            <![CDATA[This is a heading]]>
+        </onl:heading>
+        <onl:subheading>
+            <![CDATA[This is a subheading]]>
+        </onl:subheading>
+        <onl:netheading>
+            <![CDATA[This is a netheading]]>
+        </onl:netheading>
+        <onl:summary>
+            <![CDATA[This is a summary of the hold article.
+]]>
+        </onl:summary>
+        <onl:paragraphs>
+            <onl:paragraph>
+                <onl:body>
+                    <![CDATA[This is a paragraph body data
+]]>
+                </onl:body>
+            </onl:paragraph>
+            <onl:paragraph>
+                <onl:heading>
+                    <![CDATA[This is a paragraph heading data
+]]>
+                </onl:heading>
+                <onl:body>
+                    <![CDATA[Brodtekst - This is a paragraph body data
+]]>
+                </onl:body>
+            </onl:paragraph>
+        </onl:paragraphs>
+        <onl:mainimage>
+            <onl:heading>
+                <![CDATA[]]>
+            </onl:heading>
+            <onl:body>
+                <![CDATA[This is a mainimage body data]]>
+            </onl:body>
+            <onl:byline>
+                <![CDATA[]]>
+            </onl:byline>
+        </onl:mainimage>
+        <onl:byline>
+            <![CDATA[Knut-Eigil Nesselquist
+]]>
+        </onl:byline>
+        <onl:location>
+            <![CDATA[]]>
+        </onl:location>
+        <onl:sms sendstatus="1">
+            <onl:text>
+                <![CDATA[]]>
+            </onl:text>
+            <onl:category>
+                <![CDATA[SMS]]>
+            </onl:category>
+        </onl:sms>
+        <onl:factbox align="right">
+            <onl:heading>
+                <![CDATA[This is a facting heading data]]>
+            </onl:heading>
+            <onl:body>
+                <![CDATA[This is a facting body data]]>
+            </onl:body>
+        </onl:factbox>
+    </onl:content>
+    <onl:extrafields>
+            <onl:extrafield>
+                <onl:key>
+                    <![CDATA[SaxoSlug]]>
+                </onl:key>
+                <onl:value>
+                    <![CDATA[Golf]]>
+                </onl:value>
+            </onl:extrafield>
+            <onl:extrafield>
+                <onl:key>
+                    <![CDATA[Ytring]]>
+                </onl:key>
+                <onl:value>
+                    <![CDATA[Ytring]]>
+                </onl:value>
+            </onl:extrafield>
+            <onl:extrafield>
+                <onl:key>
+                    <![CDATA[SaxoPublicationDate]]>
+                </onl:key>
+                <onl:value>
+                    <![CDATA[2012-08-29T23:00:00Z]]>
+                </onl:value>
+            </onl:extrafield>
+        <onl:extrafield>
+        <onl:key>
+        <![CDATA[Artikkeltype]]>
+        </onl:key>
+        <onl:value>
+            <![CDATA[Anmeldelse]]>
+        </onl:value>
+           </onl:extrafield>
+        </onl:extrafields>
+    <onl:teaser/>
+    <onl:parents/>
+    <onl:children/>
+    <onl:taxonomywords/>
+    <onl:geopoints/>
+    <onl:mediafiles/>
+</onl:story>

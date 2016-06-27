@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test Suite" duration-ms="55802" started-at="2016-06-27T02:38:53Z" finished-at="2016-06-27T02:39:49Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test 1" duration-ms="36133" started-at="2016-06-27T02:38:53Z" finished-at="2016-06-27T02:39:29Z">
+      <class name="com.amedia.qa.automation.testcases.testgoogle.TestGoogle">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="setupTest" is-config="true" duration-ms="6387" started-at="2016-06-27T12:38:53Z" description="Setup test." finished-at="2016-06-27T12:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="searchABCTechInGoogle()[pri:1, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="searchABCTechInGoogle" duration-ms="16723" started-at="2016-06-27T12:39:00Z" description="Navigate to google.com and search with ABC Tech keyword." finished-at="2016-06-27T12:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchABCTechInGoogle -->
+        <test-method status="PASS" signature="clickContactUs()[pri:2, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="clickContactUs" duration-ms="4737" started-at="2016-06-27T12:39:16Z" description="Click on the contact us link." finished-at="2016-06-27T12:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactUs -->
+        <test-method status="PASS" signature="inputInfoInContactUs()[pri:3, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="inputInfoInContactUs" duration-ms="3691" started-at="2016-06-27T12:39:21Z" description="Input some data into text fields." finished-at="2016-06-27T12:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputInfoInContactUs -->
+        <test-method status="PASS" signature="verifyText()[pri:4, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="verifyText" duration-ms="922" started-at="2016-06-27T12:39:25Z" description="Verify text on page." finished-at="2016-06-27T12:39:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="clickLogo()[pri:5, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="clickLogo" duration-ms="2284" started-at="2016-06-27T12:39:26Z" description="Click on ABC logo to back to main page." finished-at="2016-06-27T12:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogo -->
+        <test-method status="PASS" signature="endingTest()[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="endingTest" is-config="true" duration-ms="1187" started-at="2016-06-27T12:39:28Z" description="Stop test driver." finished-at="2016-06-27T12:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingTest -->
+        <test-method status="PASS" signature="summarizeTestReults(org.testng.ITestContext)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.TestGoogle@41582899]" name="summarizeTestReults" is-config="true" duration-ms="0" started-at="2016-06-27T12:39:29Z" finished-at="2016-06-27T12:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1d9db780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summarizeTestReults -->
+      </class> <!-- com.amedia.qa.automation.testcases.testgoogle.TestGoogle -->
+    </test> <!-- Smoke Test 1 -->
+    <test name="Smoke Test 2" duration-ms="18996" started-at="2016-06-27T02:39:30Z" finished-at="2016-06-27T02:39:49Z">
+      <class name="com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle">
+        <test-method status="PASS" signature="setupTestSuite(org.testng.ITestContext)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="setupTestSuite" is-config="true" duration-ms="250" started-at="2016-06-27T12:38:53Z" finished-at="2016-06-27T12:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d91e9c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="setupTest" is-config="true" duration-ms="1503" started-at="2016-06-27T12:39:30Z" description="Start extent report." finished-at="2016-06-27T12:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="searchAmediaInGoogle()[pri:1, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="searchAmediaInGoogle" duration-ms="14462" started-at="2016-06-27T12:39:31Z" description="Navigate to google.com and search with ABC Tech keyword." finished-at="2016-06-27T12:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAmediaInGoogle -->
+        <test-method status="PASS" signature="clickChangeLanguageToEng()[pri:2, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="clickChangeLanguageToEng" duration-ms="2261" started-at="2016-06-27T12:39:46Z" description="Click on the contact us link." finished-at="2016-06-27T12:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickChangeLanguageToEng -->
+        <test-method status="PASS" signature="endingTest()[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="endingTest" is-config="true" duration-ms="767" started-at="2016-06-27T12:39:48Z" description="Stop test driver." finished-at="2016-06-27T12:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endingTest -->
+        <test-method status="PASS" signature="summarizeTestReults(org.testng.ITestContext)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="summarizeTestReults" is-config="true" duration-ms="0" started-at="2016-06-27T12:39:49Z" finished-at="2016-06-27T12:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d91e9c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summarizeTestReults -->
+        <test-method status="PASS" signature="recordTestResultsToDB(org.testng.ITestContext, boolean)[pri:0, instance:com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle@782cc5fa]" name="recordTestResultsToDB" is-config="true" duration-ms="14" started-at="2016-06-27T12:39:49Z" finished-at="2016-06-27T12:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d91e9c9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordTestResultsToDB -->
+      </class> <!-- com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle -->
+    </test> <!-- Smoke Test 2 -->
+  </suite> <!-- Smoke Test Suite -->
+</testng-results>

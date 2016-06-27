@@ -1,0 +1,101 @@
+{
+  "uid" : "cd7a537d47cc4890",
+  "name" : "verifyText",
+  "title" : "Verify text",
+  "time" : {
+    "start" : 1465447670230,
+    "stop" : 1465447674893,
+    "duration" : 4663
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Verify text on page.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c504181ab6177b1f",
+    "name" : "Smoke Test Suite : Smoke Test 1",
+    "title" : "Smoke Test Suite : Smoke Test 1"
+  },
+  "steps" : [ {
+    "name" : "verifyValue[By.xpath: //div[contains(@class, 'one-third')]//p//a[text()], contact@abctech-thailand.com]",
+    "title" : "Verify object [By.xpath: //div[contains(@class, 'one-third')]//p//a[text()]] with value : contact@abctech-thailand.com",
+    "time" : {
+      "start" : 1465447670231,
+      "stop" : 1465447670383,
+      "duration" : 152
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyValue[By.xpath: //div[@class='be-custom-column-inner']/p[2]/strong, How to reach as?]",
+    "title" : "Verify object [By.xpath: //div[@class='be-custom-column-inner']/p[2]/strong] with value : How to reach as?",
+    "time" : {
+      "start" : 1465447670386,
+      "stop" : 1465447670507,
+      "duration" : 121
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "verifyValue[By.xpath: //div[@class='be-custom-column-inner']/p[3], BTS > Get off at BTS Asoke Station]",
+    "title" : "Verify object [By.xpath: //div[@class='be-custom-column-inner']/p[3]] with value : BTS > Get off at BTS Asoke Station",
+    "time" : {
+      "start" : 1465447670508,
+      "stop" : 1465447670594,
+      "duration" : 86
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "BT-0001 : Search working properly"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  }, {
+    "name" : "thread",
+    "value" : "12108@UniDev87.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Smoke Test 1">
+    <classes>
+      <class name="com.amedia.qa.automation.testcases.testgoogle.TestGoogle"/>
+    </classes>
+  </test> <!-- Smoke Test 1 -->
+  <test name="Smoke Test 2">
+    <classes>
+      <class name="com.amedia.qa.automation.testcases.testgoogle.AmediaGoogle"/>
+    </classes>
+  </test> <!-- Smoke Test 2 -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->

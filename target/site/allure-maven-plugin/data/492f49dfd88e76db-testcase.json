@@ -1,0 +1,71 @@
+{
+  "uid" : "492f49dfd88e76db",
+  "name" : "clickContactUs",
+  "title" : "Click contact us",
+  "time" : {
+    "start" : 1465448290452,
+    "stop" : 1465448296217,
+    "duration" : 5765
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Click on the contact us link.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c504181ab6177b1f",
+    "name" : "Smoke Test Suite : Smoke Test 1",
+    "title" : "Smoke Test Suite : Smoke Test 1"
+  },
+  "steps" : [ {
+    "name" : "clickLinkText[Contact us]",
+    "title" : "Click at link text : Contact us",
+    "time" : {
+      "start" : 1465448290458,
+      "stop" : 1465448296217,
+      "duration" : 5759
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "1780@UniDev87.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "BT-0001 : Search working properly"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  } ],
+  "parameters" : [ ]
+}

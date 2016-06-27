@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1466405905522" stop="1466405924959" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Smoke Test Suite : Smoke Test 2</name>
+    <title>Smoke Test Suite : Smoke Test 2</title>
+    <test-cases>
+        <test-case start="1466405907179" stop="1466405922251" status="passed">
+            <name>searchAmediaInGoogle</name>
+            <description>Navigate to google.com and search with ABC Tech keyword.</description>
+            <steps>
+                <step start="1466405904030" stop="1466405905213" status="passed">
+                    <name>stopDriver</name>
+                    <title>Ending driver.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405905524" stop="1466405907177" status="passed">
+                    <name>startDriver[chrome]</name>
+                    <title>Starting chrome driver.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405907180" stop="1466405908447" status="passed">
+                    <name>openURL[https://www.google.com]</name>
+                    <title>Navigate to url : https://www.google.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405908448" stop="1466405909360" status="passed">
+                    <name>type[By.id: lst-ib, amedia]</name>
+                    <title>Type in object [By.id: lst-ib] with value : amedia</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405909362" stop="1466405909771" status="passed">
+                    <name>click[By.name: btnG]</name>
+                    <title>Click at object [By.name: btnG]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405909773" stop="1466405922251" status="passed">
+                    <name>clickLinkText[Amedia]</name>
+                    <title>Click at link text : Amedia</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0002 : Search working properly with Amedia"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="9244@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466405922253" stop="1466405924244" status="passed">
+            <name>clickChangeLanguageToEng</name>
+            <description>Click on the contact us link.</description>
+            <steps>
+                <step start="1466405922254" stop="1466405923787" status="passed">
+                    <name>clickLinkText[EN]</name>
+                    <title>Click at link text : EN</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466405923982" stop="1466405924243" status="passed">
+                    <name>verifyValue[By.xpath: //div[@class='column']/div[1]/h5, ARE STOKSTAD]</name>
+                    <title>Verify object [By.xpath: //div[@class='column']/div[1]/h5] with value : ARE STOKSTAD</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0002 : Search working properly with Amedia"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="9244@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

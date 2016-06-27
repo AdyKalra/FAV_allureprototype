@@ -1,0 +1,116 @@
+{
+  "uid" : "9d23b77284cc4bec",
+  "name" : "inputInfoInContactUs",
+  "title" : "Input info in contact us",
+  "time" : {
+    "start" : 1465448296244,
+    "stop" : 1465448317050,
+    "duration" : 20806
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Input some data into text fields.",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c504181ab6177b1f",
+    "name" : "Smoke Test Suite : Smoke Test 1",
+    "title" : "Smoke Test Suite : Smoke Test 1"
+  },
+  "steps" : [ {
+    "name" : "type[By.name: contact_name, John Peter]",
+    "title" : "Type in object [By.name: contact_name] with value : John Peter",
+    "time" : {
+      "start" : 1465448296302,
+      "stop" : 1465448315325,
+      "duration" : 19023
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "type[By.name: contact_email, John@Peter.com]",
+    "title" : "Type in object [By.name: contact_email] with value : John@Peter.com",
+    "time" : {
+      "start" : 1465448315331,
+      "stop" : 1465448315999,
+      "duration" : 668
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "type[By.name: contact_subject, This is a test subject]",
+    "title" : "Type in object [By.name: contact_subject] with value : This is a test subject",
+    "time" : {
+      "start" : 1465448316001,
+      "stop" : 1465448316465,
+      "duration" : 464
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "type[By.name: contact_comment, This is a test message. It is just a test.]",
+    "title" : "Type in object [By.name: contact_comment] with value : This is a test message. It is just a test.",
+    "time" : {
+      "start" : 1465448316467,
+      "stop" : 1465448317050,
+      "duration" : 583
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "1780@UniDev87.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "feature",
+    "value" : "Google"
+  }, {
+    "name" : "suite-name",
+    "value" : "Smoke Test Suite : Smoke Test 1"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "BT-0001 : Search working properly"
+  }, {
+    "name" : "host",
+    "value" : "UniDev87"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1466404531565" stop="1466404548349" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Smoke Test Suite : Smoke Test 1</name>
+    <title>Smoke Test Suite : Smoke Test 1</title>
+    <test-cases>
+        <test-case start="1466404547989" stop="1466404548059" status="broken">
+            <name>searchABCTechInGoogle</name>
+            <description>Navigate to google.com and search with ABC Tech keyword.</description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException
+	at com.amedia.qa.automation.webdriver.PageInteraction.openURL(PageInteraction.java:128)
+	at com.amedia.qa.automation.testcases.testgoogle.TestGoogle.searchABCTechInGoogle(TestGoogle.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1466404532068" stop="1466404547931" status="passed">
+                    <name>startDriver[firefox]</name>
+                    <title>Starting firefox driver.</title>
+                </step>
+                <step start="1466404547999" stop="1466404548003" status="broken">
+                    <name>openURL[https://www.google.com]</name>
+                    <title>Navigate to url : https://www.google.com</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testId" value="TC001 : xxxxxxxxxx"/>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="8480@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466404548060" stop="1466404548121" status="failed">
+            <name>clickContactUs</name>
+            <description>Click on the contact us link.</description>
+            <failure>
+                <message>AssertionError: Unable to find an element with link text [Contact us].</message>
+                <stack-trace>java.lang.AssertionError: Unable to find an element with link text [Contact us].
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.amedia.qa.automation.webdriver.PageInteraction.clickLinkText(PageInteraction.java:197)
+	at com.amedia.qa.automation.testcases.testgoogle.TestGoogle.clickContactUs(TestGoogle.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1466404548062" stop="1466404548119" status="failed">
+                    <name>clickLinkText[Contact us]</name>
+                    <title>Click at link text : Contact us</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="8480@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466404548123" stop="1466404548158" status="failed">
+            <name>inputInfoInContactUs</name>
+            <description>Input some data into text fields.</description>
+            <failure>
+                <message>AssertionError: Unable to find an element [By.name: contact_name].</message>
+                <stack-trace>java.lang.AssertionError: Unable to find an element [By.name: contact_name].
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.amedia.qa.automation.webdriver.PageInteraction.type(PageInteraction.java:145)
+	at com.amedia.qa.automation.testcases.testgoogle.TestGoogle.inputInfoInContactUs(TestGoogle.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1466404548154" stop="1466404548156" status="failed">
+                    <name>type[By.name: contact_name, John Peter]</name>
+                    <title>Type in object [By.name: contact_name] with value : John Peter</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="8480@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466404548159" stop="1466404548185" status="failed">
+            <name>verifyText</name>
+            <description>Verify text on page.</description>
+            <failure>
+                <message>AssertionError: Unable to find an element [By.xpath: //div[contains(@class, 'one-third')]//p//a[text()]].</message>
+                <stack-trace>java.lang.AssertionError: Unable to find an element [By.xpath: //div[contains(@class, 'one-third')]//p//a[text()]].
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.amedia.qa.automation.webdriver.PageInteraction.verifyValue(PageInteraction.java:282)
+	at com.amedia.qa.automation.testcases.testgoogle.TestGoogle.verifyText(TestGoogle.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1466404548163" stop="1466404548185" status="failed">
+                    <name>verifyValue[By.xpath: //div[contains(@class, 'one-third')]//p//a[text()], contact@abctech-thailand.com]</name>
+                    <title>Verify object [By.xpath: //div[contains(@class, 'one-third')]//p//a[text()]] with value : contact@abctech-thailand.com</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="8480@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466404548186" stop="1466404548194" status="failed">
+            <name>clickLogo</name>
+            <description>Click on ABC logo to back to main page.</description>
+            <failure>
+                <message>AssertionError: Unable to find an element [By.xpath: //div[contains(@class, 'one-third')]//div[2]].</message>
+                <stack-trace>java.lang.AssertionError: Unable to find an element [By.xpath: //div[contains(@class, 'one-third')]//div[2]].
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.amedia.qa.automation.webdriver.PageInteraction.verifyValue(PageInteraction.java:282)
+	at com.amedia.qa.automation.testcases.testgoogle.TestGoogle.clickLogo(TestGoogle.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1466404548190" stop="1466404548193" status="failed">
+                    <name>verifyValue[By.xpath: //div[contains(@class, 'one-third')]//div[2], Phone
++66 (0) 2663 4340]</name>
+                    <title>Verify object [By.xpath: //div[contains(@class, 'one-third')]//div[2]] with value : Phone
++66 (0) 2663 4340</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="8480@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

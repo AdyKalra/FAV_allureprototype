@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1466995133595" stop="1466995169748" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Smoke Test Suite : Smoke Test 1</name>
+    <title>Smoke Test Suite : Smoke Test 1</title>
+    <test-cases>
+        <test-case start="1466995140462" stop="1466995156828" status="passed">
+            <name>searchABCTechInGoogle</name>
+            <description>Navigate to google.com and search with ABC Tech keyword.</description>
+            <steps>
+                <step start="1466995134237" stop="1466995140007" status="passed">
+                    <name>startDriver[chrome]</name>
+                    <title>Starting chrome driver.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995140475" stop="1466995141975" status="passed">
+                    <name>openURL[https://www.google.com]</name>
+                    <title>Navigate to url : https://www.google.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995141995" stop="1466995143100" status="passed">
+                    <name>type[By.id: lst-ib, ABC TECH]</name>
+                    <title>Type in object [By.id: lst-ib] with value : ABC TECH</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995143105" stop="1466995143455" status="passed">
+                    <name>click[By.name: btnG]</name>
+                    <title>Click at object [By.name: btnG]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995143457" stop="1466995155911" status="passed">
+                    <name>clickLinkText[ABCTech thailand – We bring fun back to work]</name>
+                    <title>Click at link text : ABCTech thailand – We bring fun back to work</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testId" value="TC001 : xxxxxxxxxx"/>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="11820@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466995156840" stop="1466995161574" status="passed">
+            <name>clickContactUs</name>
+            <description>Click on the contact us link.</description>
+            <steps>
+                <step start="1466995156842" stop="1466995161574" status="passed">
+                    <name>clickLinkText[Contact us]</name>
+                    <title>Click at link text : Contact us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="11820@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466995161575" stop="1466995165267" status="passed">
+            <name>inputInfoInContactUs</name>
+            <description>Input some data into text fields.</description>
+            <steps>
+                <step start="1466995161577" stop="1466995162726" status="passed">
+                    <name>type[By.name: contact_name, John Peter]</name>
+                    <title>Type in object [By.name: contact_name] with value : John Peter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995162728" stop="1466995163545" status="passed">
+                    <name>type[By.name: contact_email, John@Peter.com]</name>
+                    <title>Type in object [By.name: contact_email] with value : John@Peter.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995163546" stop="1466995164355" status="passed">
+                    <name>type[By.name: contact_subject, This is a test subject]</name>
+                    <title>Type in object [By.name: contact_subject] with value : This is a test subject</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995164356" stop="1466995165266" status="passed">
+                    <name>type[By.name: contact_comment, This is a test message. It is just a test.]</name>
+                    <title>Type in object [By.name: contact_comment] with value : This is a test message. It is just a test.</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="11820@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466995165268" stop="1466995166189" status="passed">
+            <name>verifyText</name>
+            <description>Verify text on page.</description>
+            <steps>
+                <step start="1466995165269" stop="1466995165516" status="passed">
+                    <name>verifyValue[By.xpath: //div[contains(@class, 'one-third')]//p//a[text()], contact@abctech-thailand.com]</name>
+                    <title>Verify object [By.xpath: //div[contains(@class, 'one-third')]//p//a[text()]] with value : contact@abctech-thailand.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995165517" stop="1466995165744" status="passed">
+                    <name>verifyValue[By.xpath: //div[@class='be-custom-column-inner']/p[2]/strong, How to reach as?]</name>
+                    <title>Verify object [By.xpath: //div[@class='be-custom-column-inner']/p[2]/strong] with value : How to reach as?</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995165745" stop="1466995165965" status="passed">
+                    <name>verifyValue[By.xpath: //div[@class='be-custom-column-inner']/p[3], BTS &gt; Get off at BTS Asoke Station]</name>
+                    <title>Verify object [By.xpath: //div[@class='be-custom-column-inner']/p[3]] with value : BTS &gt; Get off at BTS Asoke Station</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="11820@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1466995166191" stop="1466995168474" status="passed">
+            <name>clickLogo</name>
+            <description>Click on ABC logo to back to main page.</description>
+            <steps>
+                <step start="1466995166192" stop="1466995166443" status="passed">
+                    <name>verifyValue[By.xpath: //div[contains(@class, 'one-third')]//div[2], Phone
++66 (0) 2663 4340]</name>
+                    <title>Verify object [By.xpath: //div[contains(@class, 'one-third')]//div[2]] with value : Phone
++66 (0) 2663 4340</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1466995166444" stop="1466995168474" status="passed">
+                    <name>click[By.xpath: //img[@class='sticky-logo']]</name>
+                    <title>Click at object [By.xpath: //img[@class='sticky-logo']]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="BT-0001 : Search working properly"/>
+                <label name="feature" value="Google"/>
+                <label name="host" value="LAB00W7FCA-15"/>
+                <label name="thread" value="11820@LAB00W7FCA-15.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
